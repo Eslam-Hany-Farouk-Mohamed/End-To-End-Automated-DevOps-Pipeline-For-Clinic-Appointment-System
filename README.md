@@ -6,9 +6,7 @@ This project aims to build a simple URL Shortener web service inside Docker cont
 
 ---
 
-<p align="center">
-  <img src="https://i.imgur.com/0eQzq8X.png" width="650"/>
-</p>
+https://i.imgur.com/J4Qe1yP.png
 ---
 
 Team Members
@@ -61,4 +59,5 @@ The project will be executed over several phases:
 - *Phase 5:* Final testing, documentation, and presentation.  
 
 ---
+
 
