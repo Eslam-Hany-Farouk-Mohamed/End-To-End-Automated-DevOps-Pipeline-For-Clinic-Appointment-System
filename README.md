@@ -6,7 +6,7 @@ This project aims to build a simple URL Shortener web service inside Docker cont
 
 ---
 
-![DevOps Banner](https://raw.githubusercontent.com/github/explore/main/topics/kubernetes/kubernetes.png)
+![DevOps Cycle](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg)
 
 ---
 
@@ -60,6 +60,7 @@ The project will be executed over several phases:
 - *Phase 5:* Final testing, documentation, and presentation.  
 
 ---
+
 
 
 
