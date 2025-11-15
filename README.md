@@ -1,4 +1,4 @@
-Monitoring a Containerized URL Shortener Webservice
+## Monitoring a Containerized URL Shortener Webservice
 
 A project under the supervision of Digital Egypt Pioneers Initiative.
 This project aims to build a simple URL Shortener web service inside Docker containers and monitor it using Prometheus and Grafana for performance metrics and usage insights.
@@ -10,7 +10,7 @@ This project aims to build a simple URL Shortener web service inside Docker cont
 
 ---
 
-Team Members
+## Team Members
 
 Eslam Hany Farouk Mohamed (Team Leader)
 
@@ -21,9 +21,6 @@ Abdullah Wael Saeid Elshahaly
 Yahya Mostafa Yahya Emam
 
 Mariam Sayed Nabil Ali
-
-
-
 
 ---
 
@@ -60,9 +57,3 @@ The project will be executed over several phases:
 - *Phase 5:* Final testing, documentation, and presentation.  
 
 ---
-
-
-
-
-
-
