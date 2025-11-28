@@ -10,7 +10,7 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 ---
 
 ## 👥 Team Members
-- Eslam Hany Farouk Mohamed (Team Leader)
+- Eslam Hany Farouk Mohamed **(Team Leader)**
 - Abdallah Wael Saeid Elshahaly
 - Mariam Sayed Nabil Ali
 - Moataz Kamal Mohamed Hassan
