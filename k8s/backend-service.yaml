@@ -3,11 +3,9 @@ kind: Service
 metadata:
   name: hospital-backend-service
 spec:
-  type: NodePort
   selector:
     app: hospital-backend
   ports:
-    - port: 5000        # inside cluster
-      targetPort: 5000  # container port
-      nodePort: 32000   # external port on all nodes
-
+    - port: 5000
+      targetPort: 5000
+  type: ClusterIP

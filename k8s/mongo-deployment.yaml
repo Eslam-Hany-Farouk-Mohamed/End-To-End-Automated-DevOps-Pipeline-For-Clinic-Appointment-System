@@ -23,4 +23,3 @@ spec:
       volumes:
         - name: mongo-storage
           emptyDir: {}
-

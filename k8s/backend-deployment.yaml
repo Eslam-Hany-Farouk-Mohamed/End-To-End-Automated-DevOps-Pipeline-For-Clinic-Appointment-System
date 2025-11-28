@@ -14,38 +14,13 @@ spec:
     spec:
       containers:
         - name: hospital-backend
-          image: moatazkamalmohamed/hospital-mern-stack-backend:latest
-          imagePullPolicy: Always
+          image: hospital-backend:latest
+          imagePullPolicy: Never
           ports:
             - containerPort: 5000
           env:
             - name: PORT
               value: "5000"
-
-            - name: MONGO_URI
-              value: "mongodb://mongo-service:27017/MERN_STACK_HOSPITAL_MANAGMENT_SYSTEM"
-
-            - name: FRONTEND_URL
-              value: "http://16.170.235.0:30080"
-            - name: DASHBOARD_URL
-              value: "http://16.170.235.0:30081"
-
-            - name: JWT_SECRET_KEY
-              value: "kjsdghukdfjghdjk"
-            - name: JWT_EXPIRES
-              value: "7d"
-            - name: COOKIE_EXPIRE
-              value: "7"
-
-            - name: CLOUDINARY_CLOUD_NAME
-              value: "dxsodpg9z"
-            - name: CLOUDINARY_API_SECRET
-              value: "dhha7llk4dXQqgcXhmZti05-RCg"
-            - name: CLOUD_API_KEY
-              value: "311311976225568"
-
-            - name: SEED_ADMIN_EMAIL
-              value: "moatazkamal777@gmail.com"
-            - name: SEED_ADMIN_PASSWORD
-              value: "Feizo Kamal111"
-
+            - name: MONGO_URL
+              value: "mongodb://mongo-service:27017/hospital_db"
+            # add other env vars if your backend needs them (JWT, cookies, etc.)

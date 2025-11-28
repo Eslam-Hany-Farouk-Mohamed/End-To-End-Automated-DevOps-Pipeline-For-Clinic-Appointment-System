@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: hospital-app
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/Eslam-Hany-Farouk-Mohamed/End-To-End-Automated-DevOps-Pipeline-For-Clinic-Appointment-System.git
+    targetRevision: main
+    path: k8s
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
