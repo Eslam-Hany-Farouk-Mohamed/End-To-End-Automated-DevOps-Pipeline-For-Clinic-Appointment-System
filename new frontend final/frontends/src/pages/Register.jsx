@@ -23,7 +23,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "http://localhost:5000/api/v1/user/patient/register",
+          "http://16.170.235.0:32000/api/v1/user/patient/register",
           { firstName, lastName, email, phone, nic, dob, gender, password, role: "Patient" },
           {
             withCredentials: true,

@@ -14,10 +14,8 @@ spec:
     spec:
       containers:
         - name: hospital-frontend
-          image: hospital-frontend:latest
-          imagePullPolicy: Never
+          image: moatazkamalmohamed/hospital-mern-stack-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
-          env:
-            - name: VITE_API_URL
-              value: "http://hospital-backend-service:5000"
+

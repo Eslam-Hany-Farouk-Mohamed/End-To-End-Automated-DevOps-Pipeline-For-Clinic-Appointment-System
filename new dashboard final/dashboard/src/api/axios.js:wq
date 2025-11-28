@@ -1,12 +1,15 @@
-// dashboard/src/api/axios.js
+// src/api/axios.js
 import axios from "axios";
 
+// Take VITE_API_URL if set, otherwise default to backend NodePort on EC2
 let root =
   (import.meta.env.VITE_API_URL && import.meta.env.VITE_API_URL.trim()) ||
-  "http://16.170.235.0:32000";
+  "http://NODE_PUBLIC_IP:32000"; // <-- replace NODE_PUBLIC_IP with real value
 
+// Remove trailing slashes
 root = root.replace(/\/+$/, "");
 
+// Ensure we have EXACTLY one /api/v1 suffix
 if (!/\/api\/v1$/.test(root)) {
   root = root + "/api/v1";
 }
@@ -14,8 +17,9 @@ if (!/\/api\/v1$/.test(root)) {
 console.log("Dashboard API base URL:", root);
 
 const api = axios.create({
-  baseURL: root,          // http://16.170.235.0:32000/api/v1
+  baseURL: root,          // e.g. http://NODE_PUBLIC_IP:32000/api/v1
   withCredentials: true,
 });
 
 export default api;
+

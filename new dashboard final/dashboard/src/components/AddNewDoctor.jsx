@@ -49,7 +49,7 @@ const AddNewDoctor = () => {
       formData.append("doctorDepartment", doctorDepartment);
 
       await axios
-        .post("http://localhost:5000/api/v1/user/doctor/addnew", formData, {
+        .post("http://16.170.235.0:32000/api/v1/user/doctor/addnew", formData, {
           withCredentials: true,
           headers: { "Content-Type": "multipart/form-data" },
         })
