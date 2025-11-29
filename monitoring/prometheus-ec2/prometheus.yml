@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # 1) Node metrics (node_exporter) on k8s nodes
+  - job_name: 'k8s-nodes'
+    static_configs:
+      - targets:
+          # TODO: put your real private IPs here
+          - '172.31.41.197:9100'  # master
+          - '172.31.xx.xx:9100'   # worker1
+          - '172.31.yy.yy:9100'   # worker2
+
+  # 2) Hospital backend API (Express + /metrics)
+  - job_name: 'hospital-backend'
+    metrics_path: /metrics
+    static_configs:
+      - targets:
+          # backend NodePort from k8s (32000 in your setup)
+          - '16.170.235.0:32000'
+
+  # 3) MongoDB exporter (adjust host:port if you used a different one)
+  - job_name: 'mongodb'
+    static_configs:
+      - targets:
+          # Example where mongodb_exporter runs on master node
+          - '16.170.235.0:9216'

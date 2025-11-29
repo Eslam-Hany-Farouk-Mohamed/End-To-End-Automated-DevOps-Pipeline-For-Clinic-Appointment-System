@@ -19,3 +19,7 @@ coverage/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Prometheus / Grafana data (local volumes, not needed in Git)
+prometheus-data/
+monitoring/prometheus-ec2/data/
