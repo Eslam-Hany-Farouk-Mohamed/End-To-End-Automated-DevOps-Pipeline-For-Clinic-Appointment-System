@@ -47,6 +47,9 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 - **Scalability**: Ensure the system can handle high traffic and large numbers of appointment requests efficiently.  
 
 ---
+## AWS architecture
+![DevOps Cycle](./awe_arc.webp)
+---
 
 ## 🗓 Team Roles & Responsibilities
 https://drive.google.com/file/d/1pe5r1y5jYO-sXouobFkyIdRRRNtEkvJ9/view?usp=sharing
