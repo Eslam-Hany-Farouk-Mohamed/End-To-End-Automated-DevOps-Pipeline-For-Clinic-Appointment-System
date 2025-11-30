@@ -48,7 +48,7 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 
 ---
 ## AWS architecture
-![DevOps Cycle](./awe_arc.webp)
+![DevOps Cycle](./aws_arc.webp)
 ---
 
 ## 🗓 Team Roles & Responsibilities
