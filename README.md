@@ -52,5 +52,5 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 ---
 
 ## 🗓 Team Roles & Responsibilities
-https://drive.google.com/file/d/16rANMd0RgUsfxwhpBTdMsY7YFNoqbibc/view?usp=sharing
+https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=sharing
 ---
