@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: hospital-backend
-          image: hospital-backend:latest
-          imagePullPolicy: Never
+          image: shahaly/hospital-mern-stack-backend:v1
+          imagePullPolicy: Always # Never
           ports:
             - containerPort: 5000
           env:

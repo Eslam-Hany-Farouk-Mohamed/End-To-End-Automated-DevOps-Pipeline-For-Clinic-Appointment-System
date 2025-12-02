@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: hospital-dashboard
-          image: hospital-dashboard:latest
-          imagePullPolicy: Never
+          image: shahaly/hospital-mern-stack-dashboard:v1
+          imagePullPolicy: Always # Never
           ports:
             - containerPort: 80
           env:
