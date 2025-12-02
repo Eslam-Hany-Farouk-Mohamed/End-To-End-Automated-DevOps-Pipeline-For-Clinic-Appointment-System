@@ -9,6 +9,9 @@ env:
   DOCKER_ORG: shahaly
   BASE_NAME: hospital-mern-stack
 
+permissions:
+  contents: write
+
 jobs:
   docker-build-and-push:
     runs-on: ubuntu-latest
