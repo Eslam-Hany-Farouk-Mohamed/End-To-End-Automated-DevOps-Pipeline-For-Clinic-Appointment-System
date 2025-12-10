@@ -44,13 +44,20 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 - **Automation**: Build a complete CI/CD pipeline using GitHub Actions.
 - **Monitoring**: Deploy Prometheus to collect system and application performance metrics.
 - **Scripting**: Use Bash scripts for automation tasks and pipeline triggers.
-- **Scalability**: Ensure the system can handle high traffic and large numbers of appointment requests efficiently.  
+- **Scalability**: Ensure the system can handle high traffic and large numbers of appointment requests efficiently.
+  
+---
+## ⚙ AWS architecture
+![DevOps Cycle](./aws_arc.jpg)
+---
+
+## 🗓 Team Roles & Responsibilities
+https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=sharing
+---
 
 ---
 
 ## 🧩 Application architecture
-
-## 🧩 Application Architecture
 
 ```mermaid
  flowchart LR
@@ -160,13 +167,3 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
     style graf fill:#D50000
     style mongoexp fill:#D50000
     style nodeexp fill:#D50000
-
-  ...
----
-## ⚙ AWS architecture
-![DevOps Cycle](./aws_arc.jpg)
----
-
-## 🗓 Team Roles & Responsibilities
-https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=sharing
----
