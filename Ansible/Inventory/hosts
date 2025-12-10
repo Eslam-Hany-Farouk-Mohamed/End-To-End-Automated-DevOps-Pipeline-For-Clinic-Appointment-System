@@ -1,5 +1,4 @@
-[IT]
-192.168.126.137 ansible_user=eslam ansible_password=eslam ansible_become_password=eslam
-192.168.126.138 ansible_user=eslam2 ansible_password=eslam2 ansible_become_password=eslam2
-192.168.126.139 ansible_user=eslam3 ansible_password=eslam3 ansible_become_password=eslam3
-
+[DevOps]
+172.31.41.197 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/depi-k8s.pem
+172.31.41.88 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/depi-k8s.pem
+172.31.44.48 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/depi-k8s.pem
