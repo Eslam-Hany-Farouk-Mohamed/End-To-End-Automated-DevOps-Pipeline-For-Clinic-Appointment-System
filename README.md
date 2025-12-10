@@ -50,6 +50,9 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 
 ## 🧩 Application architecture
 
+## 🧩 Application Architecture
+
+```mermaid
  flowchart LR
  subgraph client["External Access"]
         browser["Browser / REST Client"]
@@ -157,6 +160,8 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
     style graf fill:#D50000
     style mongoexp fill:#D50000
     style nodeexp fill:#D50000
+
+  ...
 ---
 ## ⚙ AWS architecture
 ![DevOps Cycle](./aws_arc.jpg)
