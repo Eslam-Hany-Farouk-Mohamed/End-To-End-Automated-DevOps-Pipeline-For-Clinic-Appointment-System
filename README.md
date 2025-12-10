@@ -72,7 +72,7 @@ https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=shari
         worker2_node["K8s Worker Node 2\n(worker2.sh)"]
   end
  subgraph cm["Configuration Management\n(Ansible)"]
-        inventory["Inventory [IT]\n192.168.126.137-139"]
+        inventory["Inventory [DevOps]\n192.168.126.137-139"]
         playbook["Install_Docker.yml\nInstall Docker on all servers"]
   end
  subgraph fe["Frontend Tier"]
