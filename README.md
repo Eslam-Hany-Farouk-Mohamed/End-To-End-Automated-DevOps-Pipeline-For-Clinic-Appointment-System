@@ -16,6 +16,10 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 - Yahya Mostafa Yahya Emam
 - Mariam Sayed Nabil Ali
 
+## 🗓 Team Roles & Responsibilities
+https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=sharing
+
+
 ---
 
 ## 📌 Project Overview
@@ -49,12 +53,6 @@ This project aims to build a fully automated DevOps pipeline for deploying, mana
 ---
 ## ⚙ AWS architecture
 ![DevOps Cycle](./aws_arc.jpg)
----
-
-## 🗓 Team Roles & Responsibilities
-https://drive.google.com/file/d/19IGdDwkpUju2mAEF3QMG9_NSNMJXQR9_/view?usp=sharing
----
-
 ---
 
 ## 🧩 Application architecture
