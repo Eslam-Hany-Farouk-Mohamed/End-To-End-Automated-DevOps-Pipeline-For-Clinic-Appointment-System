@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hospital-frontend
-          image: docker.io/shahaly/hospital-mern-stack-frontend:github-sha-4c1e3cc9622c96d9402eb21da6fe417ea9075cb1
+          image: docker.io/shahaly/hospital-mern-stack-frontend:github-sha-1b31acc2aa5f2ec74a53553e710fe6d8ed401901
           imagePullPolicy: Always # Never
           ports:
             - containerPort: 80
