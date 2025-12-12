@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hospital-dashboard
-          image: docker.io/shahaly/hospital-mern-stack-dashboard:github-sha-8952c9265fff8ce173d9134cc32a5902da198912
+          image: docker.io/shahaly/hospital-mern-stack-dashboard:github-sha-a7496e82f6a4877b46cb603a7f5eccc64bc929e5
           imagePullPolicy: Always # Never
           ports:
             - containerPort: 80
