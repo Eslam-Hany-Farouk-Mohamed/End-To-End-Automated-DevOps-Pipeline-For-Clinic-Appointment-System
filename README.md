@@ -4,9 +4,7 @@ A project under the supervision of **Digital Egypt Pioneers Initiative**.
 This project aims to build a fully automated DevOps pipeline for deploying, managing, and monitoring a **Clinic Appointment System** using modern DevOps tools and cloud technologies.
 
 ---
-
 ![DevOps Cycle](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.svg)
-
 ---
 
 ## 👥 Team Members
