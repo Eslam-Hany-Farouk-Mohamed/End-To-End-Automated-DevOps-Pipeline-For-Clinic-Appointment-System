@@ -1,48 +1,44 @@
 # Default values for clinic-appointment-system.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
+# 
 global:
   imagePullSecrets: []
   nameOverride: ""
   fullnameOverride: ""
-
 # Subchart configurations
 backend:
   replicaCount: 1
   image:
     repository: docker.io/shahaly/hospital-mern-stack-backend
     pullPolicy: Always
-    tag: "github-sha-a55b3b19ea76293ff4642c97e84ccc55bba81155"
+    tag: "github-sha-7db1204d8ae152ef63f566a694fa23b735581a50"
   service:
     type: ClusterIP
     port: 5000
     targetPort: 5000
   env:
     PORT: "5000"
-
 frontend:
   replicaCount: 1
   image:
     repository: docker.io/shahaly/hospital-mern-stack-frontend
     pullPolicy: Always
-    tag: "github-sha-a55b3b19ea76293ff4642c97e84ccc55bba81155"
+    tag: "github-sha-7db1204d8ae152ef63f566a694fa23b735581a50"
   service:
     type: ClusterIP
     port: 80
     targetPort: 80
-
 dashboard:
   replicaCount: 1
   image:
     repository: docker.io/shahaly/hospital-mern-stack-dashboard
     pullPolicy: Always
-    tag: "github-sha-a55b3b19ea76293ff4642c97e84ccc55bba81155"
+    tag: "github-sha-7db1204d8ae152ef63f566a694fa23b735581a50"
   service:
     type: ClusterIP
     port: 80
     targetPort: 80
-
 mongo:
   replicaCount: 1
   image:
@@ -55,14 +51,15 @@ mongo:
     targetPort: 27017
   persistence:
     enabled: false
-
 ingress:
   enabled: true
   className: "nginx"
   annotations:
-    # kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
-    # nginx.ingress.kubernetes.io/rewrite-target: /
+  # kubernetes.io/ingress.class: nginx
+
+  # kubernetes.io/tls-acme: "true"
+
+  # nginx.ingress.kubernetes.io/rewrite-target: /
   hosts:
     - host: chart-example.local
       paths:
@@ -70,5 +67,5 @@ ingress:
           pathType: ImplementationSpecific
   tls: []
   #  - secretName: chart-example-tls
-  #    hosts:
-  #      - chart-example.local
+#    hosts:
+#      - chart-example.local
