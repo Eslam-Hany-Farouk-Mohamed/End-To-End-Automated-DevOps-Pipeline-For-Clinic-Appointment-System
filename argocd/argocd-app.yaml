@@ -1,14 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hospital-app
+  name: clinic-appointment-system
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/Eslam-Hany-Farouk-Mohamed/End-To-End-Automated-DevOps-Pipeline-For-Clinic-Appointment-System.git
     targetRevision: main
-    path: k8s
+    path: helm/clinic-appointment-system
+    helm:
+      valueFiles:
+        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: default
@@ -16,3 +19,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

@@ -10,3 +10,5 @@ resources:
   - mongo-deployment.yaml
   - mongo-service.yaml
   - mongodb-exporter.yaml
+  - ingress-deployment.yaml
+  - ingress-service.yaml

@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: docker.io/shahaly/hospital-mern-stack-dashboard
+  pullPolicy: Always
+  tag: "github-sha-a55b3b19ea76293ff4642c97e84ccc55bba81155"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+
+env:
+  # VITE_API_URL will be constructed in the template if not provided
+  # VITE_API_URL: "http://backend-service:5000"
